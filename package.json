@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "dev" : "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "main": "index.html",
+  "name": "swiper-manipulation",
+  "tags": [
+    "swiper"
+  ]
+}
